@@ -84,6 +84,9 @@ body {
   }
   .wrapper .right {
     border-radius: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
   .wrapper .right__img-mobile {
     display: none;

@@ -55,6 +55,7 @@ body {
 
 
         .left {
+            // flex-grow: 1;
             order: 0;
             flex-basis: 50%;
             display: flex;
@@ -82,7 +83,7 @@ body {
 
         .right {
             border-radius: 0;
-            // flex-grow: 1;
+            flex-grow: 1;
 
             &__img-mobile {
                 display: none;
