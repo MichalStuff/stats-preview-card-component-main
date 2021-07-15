@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   color: white;
@@ -22,7 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 120vh;
   background-color: #090b1a;
 }
 
@@ -36,7 +37,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 5rem 2rem;
   background-color: #1b1938;
   border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -167,7 +167,7 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: -10px;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
   padding-bottom: 30px;
