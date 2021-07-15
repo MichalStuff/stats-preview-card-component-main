@@ -13,6 +13,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -161,5 +163,26 @@ body {
 
 .right__img-desktop {
   display: none;
+}
+
+.attribution {
+  position: absolute;
+  bottom: -10px;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1440px) {
+  .attribution {
+    position: absolute;
+    bottom: 30px;
+    font-size: 1.3rem;
+  }
+}
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

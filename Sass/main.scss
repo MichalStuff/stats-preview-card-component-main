@@ -30,6 +30,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: $clr-white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -157,5 +158,22 @@ body {
 
     &__img-desktop {
         display: none;
+    }
+}
+
+.attribution { 
+    position: absolute;
+    bottom: -10px;
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 30px;
+    @media (min-width:1440px) {
+        position: absolute;
+        bottom: 30px;
+        font-size: 1.3rem;
+    }
+    & a { 
+        color: hsl(228, 45%, 44%); 
+        text-decoration: none;
     }
 }
