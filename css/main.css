@@ -22,7 +22,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: 120vh;
   background-color: #090b1a;
 }
@@ -30,12 +30,21 @@ body {
 @media (min-width: 1440px) {
   body {
     min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 560px) {
+  body {
+    height: 285vh;
   }
 }
 
 .wrapper {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,6 +116,19 @@ body {
   }
 }
 
+@media (orientation: portrait) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: 375px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1440px) {
+  .wrapper {
+    max-width: 575px;
+  }
+}
+
 .left {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
@@ -129,7 +151,6 @@ body {
 
 .left__text {
   color: rgba(255, 255, 255, 0.6);
-  line-height: 1.6rem;
   margin-bottom: 2.4rem;
 }
 
