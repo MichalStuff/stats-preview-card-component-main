@@ -37,13 +37,17 @@ body {
     width: 100vw;
     min-height: 120vh;
     background-color: $clr-very-dark-blue;
+    
+    @media (min-width:1440px) {
+        min-height: 100vh;
+    }
 
 }
 
 .wrapper {
     flex-basis: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     // margin: 5rem 2rem;
     background-color: $clr-dark-desaturated-blue;
     border-radius: 0 0 0.5rem 0.5rem;
@@ -57,7 +61,6 @@ body {
 
 
         .left {
-            // flex-grow: 1;
             order: 0;
             flex-basis: 50%;
             display: flex;
@@ -164,7 +167,7 @@ body {
 
 .attribution { 
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     // margin-bottom: 30px;
     font-size: 11px; 
     text-align: center; 

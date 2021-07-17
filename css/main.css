@@ -27,6 +27,12 @@ body {
   background-color: #090b1a;
 }
 
+@media (min-width: 1440px) {
+  body {
+    min-height: 100vh;
+  }
+}
+
 .wrapper {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -167,7 +173,7 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
   font-size: 11px;
   text-align: center;
   padding-bottom: 30px;
