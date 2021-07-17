@@ -23,7 +23,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  min-height: 120vh;
+  padding: 10vh 0;
+  min-height: 100vh;
   background-color: #090b1a;
 }
 
@@ -35,9 +36,9 @@ body {
   }
 }
 
-@media (orientation: landscape) and (max-width: 560px) {
+@media (orientation: landscape) {
   body {
-    height: 285vh;
+    padding: 10vh 0;
   }
 }
 
