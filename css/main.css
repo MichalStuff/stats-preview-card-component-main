@@ -28,7 +28,7 @@ body {
   background-color: #090b1a;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1439px) {
   body {
     min-height: 100vh;
     margin: 0 auto;
@@ -124,7 +124,7 @@ body {
   }
 }
 
-@media (orientation: landscape) and (max-width: 1440px) {
+@media (orientation: landscape) and (max-width: 1439px) {
   .wrapper {
     max-width: 575px;
   }

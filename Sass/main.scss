@@ -40,7 +40,7 @@ body {
     min-height: 100vh;
     background-color: $clr-very-dark-blue;
     
-    @media (min-width:1440px) {
+    @media (min-width:1439px) {
         min-height: 100vh;
         margin: 0 auto;
         max-width: 1440px;
@@ -116,7 +116,7 @@ body {
         max-width: 375px;
     }
 
-    @media (orientation: landscape) and (max-width: 1440px)  {
+    @media (orientation: landscape) and (max-width: 1439px)  {
         // flex-basis: 60%;
         max-width: 575px;
     }
