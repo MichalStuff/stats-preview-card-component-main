@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profilecardcomponentmain-mobilefirst-flexbox-5Yu2nE1F9)
+- Live Site URL: [Add live site URL here](https://michalstuff.github.io/profile-card-component-main/)
 
 ## My process
 
